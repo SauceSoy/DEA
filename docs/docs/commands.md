@@ -50,6 +50,7 @@ Command | Description | Usage
 Bully|Bully any user by changing their nickname.|`$bully <@member> <nickname>`
 Jump|Jump some trash for cash on the street.|`$jump`
 Kill|Kill a nigga.|`$kill <@member>`
+Rob|Scam some noobs on the streets.|`$rob <@member> <resources>`
 Scam|Scam some noobs on the streets.|`$scam`
 Steal|Hop the big guns and lick a store.|`$steal`
 

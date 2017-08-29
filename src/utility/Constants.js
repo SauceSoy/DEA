@@ -144,6 +144,13 @@ class Constants {
         defaultLength: 24
       },
 
+      rob: {
+        cooldown: 2880000,
+        max: 0.2,
+        min: 500,
+        odds: 40
+      },
+
       scam: {
         cooldown: 7200000,
         max: 1000,
