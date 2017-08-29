@@ -12,7 +12,7 @@ class Rob extends patron.Command {
     super({
       names: ['rob'],
       groupName: 'crime',
-      description: 'Scam some noobs on the streets.',
+      description: 'Use your cash to rob a user.',
       cooldown: Constants.config.rob.cooldown,
       preconditions: [Top25],
       args: [
