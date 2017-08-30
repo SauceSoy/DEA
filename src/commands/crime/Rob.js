@@ -41,7 +41,7 @@ class Rob extends patron.Command {
       await db.userRepo.modifyCash(msg.dbGuild, args.member, -args.resources);
       await db.userRepo.modifyCash(msg.dbGuild, msg.member, args.resources);
 
-      return msg.createReply('Hot dawg my dude, you sniped that niggas cash and got ' + args.resources.USD() + '.');
+      return msg.createReply('Whilst your target was at the bank, you disguised yourself as a clerk and offered to help him with his deposit. Luckily, you managed to snipe some cash from his account and the dude walked away without noticing. You robbed ' + args.resources.USD() + '.');
     }
     return msg.createReply('You snuck up behind the dude at the bank and surprised his fatass. Unfortunately for you, he was a SWAT agent and sent you to jail. You lost all the resources in the process.');
   }
